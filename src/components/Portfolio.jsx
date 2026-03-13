@@ -9,7 +9,7 @@ const projects = [
     {
         title: 'FinStream Dashboard',
         category: 'UI/UX Design',
-        image: 'https://images.unsplash.com/photo-1551288049-bbbda5366392?auto=format&fit=crop&q=80&w=2070',
+        image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2070',
     },
     {
         title: 'EcoStore E-commerce',
