@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #0071E3;
+    --color-apple-black: #1D1D1F;
+    --color-apple-gray: #F5F5F7;
+    --color-apple-dark-gray: #86868b;
+    --color-background-light: #FFFFFF;
+    --color-background-dark: #0f1923;
+
+    --font-display: "Inter", "-apple-system", "BlinkMacSystemFont", "sans-serif";
+
+    --radius-3xl: 1.5rem;
+    --radius-4xl: 2rem;
+
+    /* Animación para los Testimonios */
+    --animate-infinite-scroll: infinite-scroll 40s linear infinite;
+
+    @keyframes infinite-scroll {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-50%);
+        }
+    }
+}
+
+@layer base {
+    body {
+        @apply font-display bg-white text-apple-black antialiased;
+    }
+}
