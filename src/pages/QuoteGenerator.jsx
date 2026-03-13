@@ -83,21 +83,21 @@ const QuoteGenerator = () => {
                         <QuoteExtra
                             title="SEO Optimization"
                             description="Better visibility on search engines"
-                            price={1200}
+                            price={PRICING_DATA.extras.seo}
                             isChecked={extras.includes('seo')}
                             onChange={() => setExtras(prev => prev.includes('seo') ? prev.filter(e => e !== 'seo') : [...prev, 'seo'])}
                         />
                         <QuoteExtra
                             title="Multilingual Support"
                             description="Target a global audience"
-                            price={2500}
+                            price={PRICING_DATA.extras.multi}
                             isChecked={extras.includes('multi')}
                             onChange={() => setExtras(prev => prev.includes('multi') ? prev.filter(e => e !== 'multi') : [...prev, 'multi'])}
                         />
                         <QuoteExtra
                             title="Performance Optimization"
                             description="Advanced caching and minification"
-                            price={1500}
+                            price={PRICING_DATA.extras.perf}
                             isChecked={extras.includes('perf')}
                             onChange={() => setExtras(prev => prev.includes('perf') ? prev.filter(e => e !== 'perf') : [...prev, 'perf'])}
                         />
